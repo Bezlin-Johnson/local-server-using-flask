@@ -1,0 +1,29 @@
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def main():
+	return 
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Local Server using Python</title>
+		<link rel="stylesheet" type="text/css" href="codei/css/style.css">
+	</head>
+<header class="code">
+	<body>
+		<p>THIS WEBPAGE WAS DEVELOPED FOR THE GOOGLE CODE-IN CHALLENGE</p>  
+	</body>
+</header>
+<div class="code2">
+	<a href="https://codein.withgoogle.com/">What is GOOGLE CODE-IN ?</a>
+<div class="imp">
+	<h1> loves contributing to ScoreLab.</h1>
+</div>
+<div class="img">
+	<img src="https://miro.medium.com/max/3200/1*FHJTiIW9_enNj4RWSQ3NEQ.png" height=500px, width=auto>
+</div>
+</html>
+if __name__=="__main__":
+	app.run(debug=True,host="0.0.0.0", port=8000)
+	

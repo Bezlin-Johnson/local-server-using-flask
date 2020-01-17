@@ -1,0 +1,24 @@
+.html,head,body,header{
+	padding:0;
+	margin:0;
+	background-color:black;
+	background-size:cover;
+	text-align: center;
+}
+.code{
+	font-family:Times New Roman;
+	color:red;
+}
+.code2{
+	font-family:Times New Roman;
+}
+.imp{
+	font-size:30px;
+	color:white;
+	border:4px dashed lightblue;
+	padding:13px 13px 13px 20px;
+	margin: 20px ;
+}
+.img{
+	align-self: center;
+}
